@@ -1,0 +1,43 @@
+#demo {
+  color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+  background-image: url(file:///img/signup_bg.jpg);
+  background-size: cover;
+  padding-top: 5px;
+
+  flex-direction: column;
+
+
+
+}
+
+.flex-container >div {
+  background-color: #f7f7f7
+  color: black;
+
+  width: 50%;
+  margin: 30px;
+
+  line-height: 55px;
+  font-size: 30px;
+
+}
+.feild > div{
+  background-color: #f1f1f1f1;
+
+
+}
+
+.feild > h5
+{
+
+  color: #ffffff;
+}
